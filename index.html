@@ -4,8 +4,54 @@
 		<h2>
 			Hello
 		</h2>
-		<?php
-			echo <p style=\apostext-align:center\apos, color = red>Page under construction</p>
+<?php
+	echo <p style=\apostext-align:center\apos, color = red>Page under construction</p>
+?>
+
+<script>
+function dodawanie()
+{
+var liczbaa = document.getElementById ("pierwsza").value;
+var liczbab = document.getElementById ("druga").value;
+var c = 1*liczbaa+1*liczbab;
+document.getElementById ("wynik").innerHTML= c;
+}
+
+function odejmowanie()
+{
+var liczbaa = document.getElementById ("pierwsza").value;
+var liczbab = document.getElementById ("druga").value;
+var c = 1*liczbaa-1*liczbab;
+document.getElementById ("wynik").innerHTML= c;
+}
+
+function mnozenie()
+{
+var liczbaa = document.getElementById ("pierwsza").value;
+var liczbab = document.getElementById ("druga").value;
+var c = 1*liczbaa*liczbab;
+document.getElementById ("wynik").innerHTML= c;
+}
+
+function dzielenie()
+{
+var liczbaa = document.getElementById ("pierwsza").value;
+var liczbab = document.getElementById ("druga").value;
+if (liczbab==0) {var c = "Dzielenie przez 0 !"; document.getElementById ("wynik").innerHTML= c}
+else {var c = 1*liczbaa/liczbab;                document.getElementById ("wynik").innerHTML= c}
+	
+}
+</script>
+
+Liczba 1: <input type="number" placeholder="liczba 1" id="pierwsza"><br>
+Liczba 2: <input type="number" placeholder="liczba 2" id="druga"><br>
+
+<button onclick="dodawanie()">+</button>
+<button onclick="odejmowanie()">-</button>
+<button onclick="mnozenie()">x</button>
+<button onclick="dzielenie()">:</button>
+<br>
+<p id="wynik"></p>		
 		<h3>
 			End
 		</h3>
