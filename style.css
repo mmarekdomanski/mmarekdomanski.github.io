@@ -5,6 +5,7 @@ html{
 body {
   margin: auto;
   padding-left: 0px;
+  font-size: 16px;
 }
 .main {
   box-sizing: border-box;
@@ -17,4 +18,8 @@ body {
   margin-bottom: ;
   background-color: wheat;
   height: 100%;
+  font-size: 1em;
+}
+.comment{
+  color: rgb(247, 196, 103);
 }
