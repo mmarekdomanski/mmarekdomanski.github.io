@@ -24,11 +24,11 @@ body {
   color: rgb(247, 196, 103);
 }
 
-@media all and (min-width:480px) and (max-width:800px){
+@media all and (max-width:800px){
   .main {
     box-sizing: border-box;
     border: 10px;
-    width: 100%px;
+    width: 100%;
     align-content: center;
     padding: 10px;
     margin-left: auto;
