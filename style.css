@@ -1,10 +1,20 @@
 html{
- 
+  background-color: gray;
+  font-family: 'Courier New', Courier, monospace;
 }
-body{
-    background-color: rgb(192, 186, 197);
-    width: 1366px;
-    padding: 0px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  margin: auto;
+  padding-left: 0px;
+}
+.main {
+  box-sizing: border-box;
+  border: 10px;
+  width: 1366px;
+  align-content: center;
+  padding: 50px;
+  margin-left: auto;
+  margin-right:  auto;
+  margin-bottom: ;
+  background-color: wheat;
+  height: 100%;
 }
