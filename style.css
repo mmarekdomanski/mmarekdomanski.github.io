@@ -15,7 +15,6 @@ body {
   padding: 50px;
   margin-left: auto;
   margin-right:  auto;
-  margin-bottom: ;
   background-color: wheat;
   height: 100%;
   font-size: 1em;
@@ -24,7 +23,7 @@ body {
   color: rgb(247, 196, 103);
 }
 
-@media all and (max-width:800px){
+@media (max-width:1366px){
   .main {
     box-sizing: border-box;
     border: 10px;
@@ -33,7 +32,6 @@ body {
     padding: 10px;
     margin-left: auto;
     margin-right:  auto;
-    margin-bottom: ;
     background-color: wheat;
     height: 100%;
     font-size: 1em;
